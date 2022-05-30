@@ -1,9 +1,9 @@
-const countEL = document.getElementById('count')
+const countEL = document.getElementById('stat')
 
 updateVisitCount()
 
 function updateVisitCount () {
-  fetch('https://api.countapi.xyz/update/cyberadvent.com/59422b92-b1e7-4352-a847-c73c1caf8b99/?amount=1')
+  fetch('https://nni2vx3l2g.execute-api.us-east-1.amazonaws.com/default/updateViewcount')
     .then(res => res.json())
     .then(res => {
       countEL.innerHTML = res.value
