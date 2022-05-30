@@ -8,6 +8,6 @@ function updateVisitCount () {
   fetch('countURL')
     .then(res => res.json())
     .then(res => {
-      countElement.innerHTML = res.view-count
+      countElement.innerHTML = res.quantity;
     })
 }
