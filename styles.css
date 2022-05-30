@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap");
 
 body {
-    background-image: linear-gradient(#f5d061, #e6af2e);
-        font-family: "Open Sans", sans-serif;
-        color: #282f44;
+     background-image: linear-gradient(#f5d061, #e6af2e);
+     font-family: "Open Sans", sans-serif;
+     color: #282f44;
 }
 
 .profile-picture {
@@ -22,7 +22,6 @@ padding: 30px;
 font-family: "Open Sans", sans-serif;
 font-size: 40px;
 font-weight: 800;
-
 }
 
 .links {
@@ -33,7 +32,6 @@ font-weight: 800;
         padding: 20px;
         width: 80%;
         display: block;
-
         margin-right: auto;
         margin-left: auto;
         color: #161b27;
@@ -65,7 +63,6 @@ a:hover {
     padding: 20px;
     width: 25%;
     display: block;
-
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
