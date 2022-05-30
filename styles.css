@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap");
 
 body {
-     background-image: linear-gradient(#f5d061, #e6af2e);
-     font-family: "Open Sans", sans-serif;
-     color: #282f44;
-     }
+       background-image: linear-gradient(#f5d061, #e6af2e);
+       font-family: "Open Sans", sans-serif;
+       color: #282f44;
+}
 
 .profile-picture {
     display: block;
