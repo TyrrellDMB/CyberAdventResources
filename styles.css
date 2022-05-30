@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap");
 
 
 body {
-    background-image: linear-gradient(#F5D061, #E6AF2E);
+    background-image: linear-gradient(#f5d061, #e6af2e);
     font-family: "Open Sans", sans-serif;
     color: #282F44;
 }
+
 
 .profile-picture{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     margin-top: 10%;
     height: auto;
     max-width: 200px;
-
     border-radius: 60%;
 }
 
+
 .profile-name {
     text-align: center;
-
-
     padding: 30px;
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
@@ -30,39 +28,41 @@ body {
 
 }
 
+
 .links {
     text-align: center;
     margin-bottom: 20px;
     border: 1px solid #ECECEC;
     border-width: 3px;
     padding: 20px;
-
     width: 80%;
     display: block; 
     margin-right: auto;
     margin-left: auto;
     color: #161b27;
-
     font-size: 20px;
 }
+
 
 a{
     text-decoration: none;
     transition: color 1s;
 }
 
+
 a:hover{
     color: black;
     background-color: white;
 }
 
+
 .notes{
     text-align: center;
-
     padding: 20px;
     font-size: 25px;
     letter-spacing: 2px;
 }
+
 
 .channels{
     text-align: center;
@@ -70,15 +70,14 @@ a:hover{
     border: 1px solid #ECECEC;
     border-width: 3px;
     padding: 20px;
-
     width: 25%;
     display: block; 
     margin-right: auto;
     margin-left: auto;
-
     font-size: 20px;
     color: #161b27;
 }
+
 
 .id{
     text-align: center;
