@@ -1,13 +1,11 @@
-const countURL = 'https://nni2vx3l2g.execute-api.us-east-1.amazonaws.com/default/updateViewcount'
-const countElement = document.getElementById('stat');
+const countEL = document.getElementById('stat')
 
+updateVisitCount()
 
-updateVisitCount();
-
-function updateVisitCount() {
-  fetch('countURL')
-  .then(res => res.json())
-  .then(res => {
-    countElement.innerHTML = res.quantity;
+function updateVisitCount () {
+  fetch('https://nni2vx3l2g.execute-api.us-east-1.amazonaws.com/default/updateViewcount')
+    .then(res => res.json())
+    .then(res => {
+      countEL.innerHTML = res.value
     })
 }
